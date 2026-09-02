@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298C4F3C6713FCEE7CD954CB /* WeekCalendarWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C1A0FBB64BCB090F84497DFB /* WeekCalendarWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30936E30BAAAEEFB37B4AA35 /* WeekCalendarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C9B7295477377D262DA71 /* WeekCalendarWidget.swift */; };
+		3ECDCC4FEDAE119A3F51A119 /* CalendarSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B2B8DA5EC31825E78EF01 /* CalendarSnapshot.swift */; };
+		41D03BB643FA907DB067AB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BE495BF8A267A1E1E73962 /* Assets.xcassets */; };
+		64D5C1DF3D4DAF1D9622C897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3833730BB8399241C651D5AF /* ContentView.swift */; };
+		8C266EDD48E7EFCD34CEE259 /* ColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E268CD9C91FE88A8AF403D /* ColorSupport.swift */; };
+		D292E5542B34548318FDD3B4 /* MacCalendarWeekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE0225BAEDDC12FAC15E25 /* MacCalendarWeekApp.swift */; };
+		D8D927180C98AAEC780D5623 /* CalendarSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B2B8DA5EC31825E78EF01 /* CalendarSnapshot.swift */; };
+		FDAE16F065DF58C41A0CAD19 /* ColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E268CD9C91FE88A8AF403D /* ColorSupport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7956CA6E168751F020630D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2AE392208B6CB414C1B6C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0080465CB9F438E132D23A;
+			remoteInfo = WeekCalendarWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F609A5A3065E7A00DF564AD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				298C4F3C6713FCEE7CD954CB /* WeekCalendarWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AB9DD253AC53FCB6C8C3CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3833730BB8399241C651D5AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		453B2B8DA5EC31825E78EF01 /* CalendarSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSnapshot.swift; sourceTree = "<group>"; };
+		61E268CD9C91FE88A8AF403D /* ColorSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSupport.swift; sourceTree = "<group>"; };
+		85CC4D40E85F38CB93DBB803 /* MacCalendarWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCalendarWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFE0225BAEDDC12FAC15E25 /* MacCalendarWeekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacCalendarWeekApp.swift; sourceTree = "<group>"; };
+		91BE495BF8A267A1E1E73962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B818F48E0F62D829C4E3804 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		A41C9B7295477377D262DA71 /* WeekCalendarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCalendarWidget.swift; sourceTree = "<group>"; };
+		AC3202AFEBA21ED827910196 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBEA483F59A894A94C3C54C3 /* MacCalendarWeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacCalendarWeek.entitlements; sourceTree = "<group>"; };
+		BEC232FE21CC5F3E9DAB3492 /* Local.xcconfig.example */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Local.xcconfig.example; sourceTree = "<group>"; };
+		C1A0FBB64BCB090F84497DFB /* WeekCalendarWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WeekCalendarWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69670A640F3F78A80608D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9471BDECFAB3C8E3E3C15C /* WeekCalendarWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeekCalendarWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B30F293FD9E18D29C947687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA0317B37B60852DEFA7F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8632ACBD11F90AF4A56677 /* MacCalendarWeekApp */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE0225BAEDDC12FAC15E25 /* MacCalendarWeekApp.swift */,
+				3833730BB8399241C651D5AF /* ContentView.swift */,
+				91BE495BF8A267A1E1E73962 /* Assets.xcassets */,
+				1AB9DD253AC53FCB6C8C3CB3 /* Info.plist */,
+				BBEA483F59A894A94C3C54C3 /* MacCalendarWeek.entitlements */,
+			);
+			path = MacCalendarWeekApp;
+			sourceTree = "<group>";
+		};
+		1AF997E2C34502E1B88946E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85CC4D40E85F38CB93DBB803 /* MacCalendarWeek.app */,
+				C1A0FBB64BCB090F84497DFB /* WeekCalendarWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F95A0536BC801F25B7CD7C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				453B2B8DA5EC31825E78EF01 /* CalendarSnapshot.swift */,
+				61E268CD9C91FE88A8AF403D /* ColorSupport.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5E48925CE2077C9537F4F97F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9B818F48E0F62D829C4E3804 /* Project.xcconfig */,
+				BEC232FE21CC5F3E9DAB3492 /* Local.xcconfig.example */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		72B300190EFD51960721EE9C = {
+			isa = PBXGroup;
+			children = (
+				0F8632ACBD11F90AF4A56677 /* MacCalendarWeekApp */,
+				7627B17D2F0A3FAE2949B5AD /* WeekCalendarWidget */,
+				40F95A0536BC801F25B7CD7C /* Shared */,
+				5E48925CE2077C9537F4F97F /* Config */,
+				AC3202AFEBA21ED827910196 /* README.md */,
+				1AF997E2C34502E1B88946E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7627B17D2F0A3FAE2949B5AD /* WeekCalendarWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9B7295477377D262DA71 /* WeekCalendarWidget.swift */,
+				E69670A640F3F78A80608D35 /* Info.plist */,
+				FA9471BDECFAB3C8E3E3C15C /* WeekCalendarWidget.entitlements */,
+			);
+			path = WeekCalendarWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74C58349045125762BB49EE9 /* MacCalendarWeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49691B7677374A9C0D5EC52E /* Build configuration list for PBXNativeTarget "MacCalendarWeek" */;
+			buildPhases = (
+				518A0850A9263614078C9436 /* Sources */,
+				3EA0317B37B60852DEFA7F0F /* Frameworks */,
+				6A3C84ABC82F8C68523F6D7A /* Resources */,
+				2F609A5A3065E7A00DF564AD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020F05E81DFCADB20E19D82D /* PBXTargetDependency */,
+			);
+			name = MacCalendarWeek;
+			productName = MacCalendarWeek;
+			productReference = 85CC4D40E85F38CB93DBB803 /* MacCalendarWeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0080465CB9F438E132D23A /* WeekCalendarWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1158C77BF9D7CB94BBA400 /* Build configuration list for PBXNativeTarget "WeekCalendarWidgetExtension" */;
+			buildPhases = (
+				020F05E81DFCADB20E19D82E /* Sources */,
+				1B30F293FD9E18D29C947687 /* Frameworks */,
+				B08647BEFE59395CADDFE52A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeekCalendarWidgetExtension;
+			productName = WeekCalendarWidgetExtension;
+			productReference = C1A0FBB64BCB090F84497DFB /* WeekCalendarWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2AE392208B6CB414C1B6C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					74C58349045125762BB49EE9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DE0080465CB9F438E132D23A = {
+						CreatedOnToolsVersion = 15.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E6F03B0B1B4D3F91CC9BBC30 /* Build configuration list for PBXProject "MacCalendarWeek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72B300190EFD51960721EE9C;
+			productRefGroup = 1AF997E2C34502E1B88946E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C58349045125762BB49EE9 /* MacCalendarWeek */,
+				DE0080465CB9F438E132D23A /* WeekCalendarWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A3C84ABC82F8C68523F6D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D03BB643FA907DB067AB47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08647BEFE59395CADDFE52A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020F05E81DFCADB20E19D82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30936E30BAAAEEFB37B4AA35 /* WeekCalendarWidget.swift in Sources */,
+				D8D927180C98AAEC780D5623 /* CalendarSnapshot.swift in Sources */,
+				8C266EDD48E7EFCD34CEE259 /* ColorSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518A0850A9263614078C9436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D292E5542B34548318FDD3B4 /* MacCalendarWeekApp.swift in Sources */,
+				64D5C1DF3D4DAF1D9622C897 /* ContentView.swift in Sources */,
+				3ECDCC4FEDAE119A3F51A119 /* CalendarSnapshot.swift in Sources */,
+				FDAE16F065DF58C41A0CAD19 /* ColorSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020F05E81DFCADB20E19D82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0080465CB9F438E132D23A /* WeekCalendarWidgetExtension */;
+			targetProxy = 7956CA6E168751F020630D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1124256764D450336506CD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AA8A92C33E6E28DB4DE58A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B818F48E0F62D829C4E3804 /* Project.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WeekCalendarWidget/WeekCalendarWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(CALENDAR_WEEK_DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WeekCalendarWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CALENDAR_WEEK_WIDGET_BUNDLE_ID)";
+				PRODUCT_NAME = WeekCalendarWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Debug;
+		};
+		29941FD919F209009E94653E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B818F48E0F62D829C4E3804 /* Project.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MacCalendarWeekApp/MacCalendarWeek.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(CALENDAR_WEEK_DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacCalendarWeekApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../PlugIns",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CALENDAR_WEEK_APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4742F55245CF3699792BF1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D262B3867BF77ECA39D2C3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B818F48E0F62D829C4E3804 /* Project.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MacCalendarWeekApp/MacCalendarWeek.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(CALENDAR_WEEK_DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacCalendarWeekApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../PlugIns",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CALENDAR_WEEK_APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EAB24523EA922265C396F8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B818F48E0F62D829C4E3804 /* Project.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WeekCalendarWidget/WeekCalendarWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "$(CALENDAR_WEEK_DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WeekCalendarWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CALENDAR_WEEK_WIDGET_BUNDLE_ID)";
+				PRODUCT_NAME = WeekCalendarWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1158C77BF9D7CB94BBA400 /* Build configuration list for PBXNativeTarget "WeekCalendarWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA8A92C33E6E28DB4DE58A9 /* Debug */,
+				EAB24523EA922265C396F8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49691B7677374A9C0D5EC52E /* Build configuration list for PBXNativeTarget "MacCalendarWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29941FD919F209009E94653E /* Debug */,
+				D262B3867BF77ECA39D2C3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F03B0B1B4D3F91CC9BBC30 /* Build configuration list for PBXProject "MacCalendarWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1124256764D450336506CD5A /* Debug */,
+				4742F55245CF3699792BF1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2AE392208B6CB414C1B6C59 /* Project object */;
+}

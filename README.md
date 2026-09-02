@@ -1,5 +1,7 @@
 # Calendar Week Widget
 
+![Calendar Week Widget hero](Assets/readme-hero.png)
+
 A real macOS WidgetKit widget for Apple Calendar that shows selected calendars across a full Sunday-to-Saturday week.
 
 ## What It Does
